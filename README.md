@@ -1,30 +1,14 @@
-# LAB - 
+# LAB - 15 
 
-## Project Name
+## Event Driven Application
 
-### Author: Student/Group Name
+### Author: Martin Balke
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
+* [submission PR](https://github.com/martinbalke-401-adavanced-js/401-lab-15/pull/1)
+* [travis](https://www.travis-ci.com/martinbalke-401-adavanced-js/401-lab-15)
 
-
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
-  
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* `npm start (specified filepath)`
 
-#### UML
-Link to an image of the UML for your application and response to events

@@ -3,9 +3,7 @@ db
 .env
 temp
 build
-data
-/data
-./data
+
 
 # Created by https://www.gitignore.io/api/vim,osx,node,linux,windows
 ### Linux ###
