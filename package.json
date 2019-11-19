@@ -4,11 +4,15 @@
   "description": "Events Lab",
   "main": "app.js",
   "scripts": {
-    "test": "jest --verbose --coverage"
+    "start": "node app.js",
+    "test": "jest --verbose --coverage",
+    "lint": "eslint '**/*.js' --fix"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "eslint": "^6.6.0",
+    "faker": "^4.1.0",
     "jest": "^24.8.0"
   }
 }
