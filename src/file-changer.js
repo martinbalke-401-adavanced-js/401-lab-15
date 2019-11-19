@@ -39,12 +39,13 @@ exports.saveFile = async (file) => {
  */
 exports.alterFile = async (file) => {
   try {
+    if(!file) throw {message: 'Please provide a file'};
     await exports.loadFile(file);
     await exports.saveFile(file);
     emitter.emit('file-saved', {status: 1, file, text: 'saved'});
     console.log(emitter);
   } catch (error) {
-    if(error) emitter.emit('file-error', {satus: 0, file, text: error.message})
+    if(error) emitter.emit('file-error', {satus: 0, file, text: error.message});
   }
 };
 
